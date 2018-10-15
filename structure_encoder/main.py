@@ -45,11 +45,11 @@ tf.app.flags.DEFINE_float('max_epochs', 1000.0,
 							"""Maximum epochs for optimization.""")
 tf.app.flags.DEFINE_float('gpu_fraction', 0.7,
 							"""Upper-bound fraction of GPU memory usage.""")
-tf.app.flags.DEFINE_string('data_dir', '/media/hdd/Projects/Pattern/Pattern_Data/Data_No_Occlution/TrainData/',
+tf.app.flags.DEFINE_string('data_dir', '/',
 							"""Directory containing training/testing data.""")
 tf.app.flags.DEFINE_string('train_dir', './trainlog/',
 							"""Directory where to write training logs.""")
-tf.app.flags.DEFINE_string('test_dir', '/home/wanchao/Desktop/New_Pattern/alex_fine_tune_fc8/f8_7891/',
+tf.app.flags.DEFINE_string('test_dir', '/',
 							"""Directory where to write testing logs.""")
 
 def main(argv=None):
